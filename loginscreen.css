@@ -1,0 +1,183 @@
+* {
+  padding: 0;
+  margin: 0;}
+body {
+  width: 100%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #b3b3b3;
+  background-image: url(netflix-image5.jpg);
+  background-position: center;
+  background-blend-mode: darken;
+  background-size: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  overflow-x: hidden;
+}
+
+body .all {
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+h1 {
+  padding-bottom: 30px;
+}
+body .logo img {
+  position: fixed;
+  display: block;
+  left: 25px;
+  max-width: 100%;
+  width: 13%;
+  top: -9px;
+  z-index: 1;
+}
+
+body .loginscreen {
+  display: flex;
+  margin-top: 100px;
+  flex-direction: column;
+  background: #000000d5;
+  border-radius: 4px;
+  width: 28%;
+  max-width: 100%;
+  height: 465px;
+  padding: 40px 30px 40px;
+  margin: auto;
+  margin-top: 10%;
+}
+
+body .entrar {
+  left: 32px;
+  font-weight: 50px;
+  color: white;
+  position: relative;
+  display: flex;
+}
+body .campologin {
+  width: 80%;
+  position: relative;
+  background: #333;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: none;
+  opacity: 1;
+  font-size: 1rem;
+  color: #fff;
+  line-height: 15px;
+  padding: 5px 5px 5px;
+  left: 32px;
+  outline: none;
+  top: 7px;
+}
+
+body .senha {
+  outline: none;
+  width: 80%;
+  position: relative;
+  background: #333;
+  margin-bottom: 10px;
+  border-radius: 4px;
+  border: none;
+  opacity: 1;
+  font-size: 1rem;
+  color: #fff;
+  line-height: 15px;
+  padding: 5px 5px 5px;
+  left: 32px;
+  top: 7px;
+}
+
+body .buttonsigin {
+  position: relative;
+  left: 29px;
+  text-align: center;
+  outline: none;
+  width: 79%;
+  height: 7%;
+  background: #cc0913;
+  background-attachment: fixed;
+  opacity: 1;
+  margin: 24px 0px 10px;
+  padding: 10px;
+  color: #fff;
+  margin-top: 40px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+body .buttonsigin button {
+  color: #fff;
+  font-size: 1.2rem;
+  cursor: pointer;
+  background: none;
+  outline: none;
+  border: none;
+}
+body .rememberme {
+  margin-left: 14px;
+  text-align: left;
+  color: rgb(134, 133, 133, 0.788);
+  font-size: 0.9rem;
+}
+
+body .precisadeajudatxt {
+  color: rgba(134, 133, 133, 0.788);
+  position: relative;
+  left: 234px;
+  bottom: 16px;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+body .precisadeajudatxt:hover {
+  color: rgb(158, 10, 10);
+  text-decoration: underline;}
+body footer {
+  font-family: Arial, Helvetica, sans-serif;
+  position: absolute;
+  background-color: rgba(0, 0, 0, 0.795);
+  background-attachment: fixed;
+  color: rgba(134, 133, 133, 0.788);
+  width: 100%;
+  float: left;
+  max-width: 100%;
+  height: 28%;
+  padding-top: 2%;
+  justify-content: center;
+  margin-top: 20%;
+}
+
+h3 {
+  margin-left: 8%;
+  font-size: 20px;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body footer ul {
+  text-decoration: none;
+  list-style: none;
+  font-family: Arial, Helvetica, sans-serif;
+  display: inline-flex;
+  font-size: 0.9rem;
+  margin-left: 85px;
+}
+
+footer ul a {
+  text-decoration: none;
+  color: rgba(134, 133, 133, 0.788);
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 25px;
+}
+
+footer ul a:hover {
+  color: rgb(158, 10, 10);
+  text-decoration: underline;
+}
+footer p {
+  text-align: center;
+}
